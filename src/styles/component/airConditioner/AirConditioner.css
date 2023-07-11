@@ -1,0 +1,63 @@
+.airConFrame{
+    background-color: beige;
+    border-radius: 40px;
+    width: 1000px;
+    height: 210px;
+    box-shadow: 5px 5px 30px 15px rgba(178, 174, 174, 0.96);
+    margin-left: 170px;
+}
+
+.product_name{
+    margin-top: 40px;
+    color: burlywood;
+    text-align: center
+}
+
+.controls p{
+    color: #512121;
+}
+
+/*.arrowUp{
+    background-image: url("/src/assets/image/svg/arrowUp.svg");
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    background-repeat: no-repeat;
+}*/
+
+
+.remoteFrame{
+    margin-left: 560px;
+    margin-top: 30px;
+    color: whitesmoke;
+    border: 20px solid beige;
+    border-radius: 35px;
+    width: 190px;
+    height: 370px;
+}
+
+.grey_border_of_temp{
+    height: 25px;
+    width: 120px;
+    border: 30px solid #d7d7bb;
+    margin-left: 5px;
+    margin-top: 17px;
+    border-radius: 15px;
+}
+
+.main_temp_div{
+    height: 35px;
+    background-color: #95a57e;
+    margin-top: -18px;
+}
+.controls{
+    text-align: center;
+}
+
+
+
+.controls button{
+    color: brown;
+    padding: 10px;
+    margin: 10px;
+}
