@@ -18,6 +18,7 @@ class EliteClass extends Component{
 
 
     power(){
+        console.log("I am here now")
         this.setState((prevState) => ({
             isOn: prevState.isOn === false ? prevState.isOn === true : prevState.isOn === false
         }))
@@ -68,9 +69,7 @@ class EliteClass extends Component{
         return(
             <div>
                 <p>{name}</p>
-                <button onClick={() => this.setState((prevState) => ({
-                    isOn: prevState.isOn === false ? prevState.isOn === true : prevState.isOn === false
-                }))}> Power </button>
+                <button onClick={this.power}> Power </button>
                 <p>Switch stat: {isOn ? "On" : "Off"}</p>
                 <p></p>
                 <button onClick={this.increaseTemperature}> Temp+ </button>
